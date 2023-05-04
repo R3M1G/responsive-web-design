@@ -1,1 +1,1 @@
-this is a place where i will be upload my progress on the freecodecamp "responsive web design" course.
+This is a place where I will be uploading my progress on freecodecamp's "responsive web design" course.
