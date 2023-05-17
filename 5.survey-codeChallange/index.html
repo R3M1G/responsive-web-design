@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css>">
+    <link rel="stylesheet" href="styles.css>"/>
 </head>
 <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">This is a survey to comply to freecCodeCamp´s challange requisitions </p>
+<p id="description">This is a survey to comply to freeCodeCamp's challenge requisitions </p>
 
 <form id="survey-form">
+    <label for="name" id="name-label">Name <input id="name" type="text" placeholder="João Silva Santos"/></label>
+
+    <label for="email" id="email-label">Email <input id="email" type="email" placeholder="joao.santos@email.com"/></label>
+
+    <label for="number" id="number-label">Phone <input id="number" type="tel" min="12" max="16" placeholder="(11)999-123-456"/></label>
+<hr>
+<label for="dropdown">How did you found us?
+<select id="dropdown" name="dropdown">
+    <option value="">(select one)</option>
+    <option value="1">I googled you</option>
+    <option value="2">I followed a bread trail</option>
+    <option value="3">I saw the big flashing sign pointing to you</option>
+    <option value="4">I´m lost, c-can I use your phone?</option>
+</select></label>
 
 </form>
 </body>
