@@ -2,29 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css>"/>
+    <title>Renan´s Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">This is a survey to comply to freeCodeCamp's challenge requisitions </p>
+    <h1 id="title" class="title"> Renan´s Survey Form</h1>
+<p id="description"> Welcome Traveler. You found this Survey Form, please answer it accordingly. </p>
+<div class="survey-form">
 
-<form id="survey-form">
-    <label for="name" id="name-label">Name <input id="name" type="text" placeholder="João Silva Santos"/></label>
+<form id="survey-form"><br><p>feed us data</p>
+    <label for="name" id="name-label">Name <input  id="name" required type="text" placeholder="João Silva Santos"/></label>
 
-    <label for="email" id="email-label">Email <input id="email" type="email" placeholder="joao.santos@email.com"/></label>
+    <label for="email" id="email-label">Email <input id="email" required type="email" placeholder="joao.santos@email.com"/></label>
 
-    <label for="number" id="number-label">Phone <input id="number" type="tel" min="12" max="16" placeholder="(11)999-123-456"/></label>
+    <label for="number" id="number-label">Age <input id="number"  type="number" min="12" max="126" placeholder="18"/></label>
 <hr>
-<label for="dropdown">How did you found us?
-<select id="dropdown" name="dropdown">
+<div class="dropdown">
+<label for="dropdown"><p>How did you found us?</p>
+ 
+    <select id="dropdown"  >
     <option value="">(select one)</option>
     <option value="1">I googled you</option>
     <option value="2">I followed a bread trail</option>
     <option value="3">I saw the big flashing sign pointing to you</option>
     <option value="4">I´m lost, c-can I use your phone?</option>
-</select></label>
+</select>
+</label>
+
+</div>
+<div class="radio">
+<label id="radio"><p id="radio">Choose your destiny</p>
+    <label for="Squirtle"><input type="radio" name="pokemon" value="Squirtle" id="Squirtle" checked />Squirtle </label>
+    <label for="Charmander"><input type="radio" name="pokemon"value="Charmander" id="Charmander"/> Charmander </label>
+    <label for="Bulbasaur"><input type="radio" name="pokemon" value="Bulbasaur" id="Bulbasaur"/> Bulbasaur </label>
+</radio>
+</label>
+
+<div class="checkbox">
+<label for="checkbox">Click here if you are aware this is very serious business<input id="checkbox" required name="checkbox"  value="pokemon" type="checkbox"/>
+</label>
+</div>
+
+<div class="textarea">
+<label for="textarea">Love Letters To Nobody:<br>
+          <textarea id="textarea" name="textarea" rows="4" cols="35" placeholder="Tell what You should have said that day. To that someone very especial..."></textarea>
+        </label>
+</div>
+<hr>
+<div class="checkbox2">
+<label for="checkbox2">Did I double check before git-push? <input value="gitgood" id="checkbox2" required name="checkbox2" type="checkbox"/>
+</label>
+</div>
+<button type="submit" id="submit">Submit</button>
 
 </form>
+</div>
 </body>
 </html>
