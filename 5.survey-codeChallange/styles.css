@@ -28,3 +28,7 @@ div{
    margin-left: 10%;
    margin-right: 10%;
 }
+img{
+    display: block;
+    margin-top: 20%;
+}
