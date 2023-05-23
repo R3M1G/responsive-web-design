@@ -8,7 +8,6 @@ body{
     background-image: url(img/background.jpg) ;
     padding: 20px;
     font-size: 1.5rem;
-    
 }
 form{
    color: #ff3f4f;
@@ -20,7 +19,6 @@ form{
   font-family: arial, sans-serif;    
   font-size: 3rem;  
   border-radius: 80%;
-
 }
 div{
     border: none;
@@ -29,6 +27,5 @@ div{
    margin-right: 10%;
 }
 img{
-    display: block;
     margin-top: 20%;
 }
